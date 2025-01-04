@@ -1,0 +1,42 @@
+*{
+  font-family: Montserrat;
+}
+.wrap{
+  width: 90%;
+  height: 90vh;
+  padding: 20px;
+  overflow: hidden;
+}
+#generateID{
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: royalblue;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+#generateID:hover{
+  background-color: rgb(41, 69, 153);
+}
+p{
+  font-size: 16px;
+  font-weight: 300;
+  color: #333;
+  margin-top: 20px;
+}
+#idContainer{
+  width: 370px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: royalblue;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 500;
+}
